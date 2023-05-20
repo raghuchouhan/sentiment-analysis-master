@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: sticky;
+    height: 20px;
+  }
+  .navbar .container {
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    align-items: center;
+    /* display: block; */
+    width: 100%;
+    color: #1da1f3;
+    position: relative;
+  }
+
+  .navbar-brand {
+    color: #1da1f3;
+  
+    width: 100px;
+    margin-top: 14px;
+    margin-left: 20px;font-size: 20px;
+  }
+  .navbar-nav li {
+    list-style: none;
+    text-decoration: none;
+  }
+  .nav-link {
+    color: #1da1f3;
+  }
+  .navbar-collapse {
+    width: 50%;
+    /* margin-top: 8px; */
+  }
+  .nav-link {
+    width: 300px;
+  position: absolute;
+  right: 10px;
+    /* border: 2px solid red; */
+    font-size: 20px;
+  }
+  .ftco-cover {
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0px;
+    background-position: center;
+  }
+  .ftco-cover {
+    color: white;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    /* margin-top: 50px; */
+    /* padding: 50px; */
+  }
+  .ftco-cover .container {
+    margin-top: 50px;
+    width: 100%;
+  }
+  .ftco-heading {
+    font-size: 30px;
+    font-family: cursive;
+    /* padding: 15px; */
+  }
+  .ftco-subheading {
+    font-size: 20px;
+    color: white;
+    font-family: cursive;
+    margin-top: 30px;
+  }
+  .ftco-heading .mb-3 .aos-init .aos-animate{
+    color:white;
+  }
+  .col-md-7 .row {
+    background-color: #1da1f3;
+    display: inline-block;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: -5px 10px 0px 0px #8dc5e7;
+  }
+  /* .col-md-7{
+    position: relative;
+    right: 400px;
+    top :100px;
+  } */
+  .box p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    /* font-weight:200; */
+  }
+  .col-md-7 h3 {
+    font-family: cursive;
+  }
+  .page{
+    margin: 30px 0;
+    width: 65%;
+  }
+  @media (max-width: 640px){
+    .page{
+      margin: 30px 0;
+
+      width: 320px;
+    }
+  }
+  .page__demo{
+    width: auto;
+  }
+  .col-md-8{
+    position: relative;
+    right: 150px;
+    top :100px;
+  }
+  .col-md-9{
+    position: relative;
+    right: 400px;
+    top :100px;
+    color: white;
+  }
+  .tbl-header{
+    text-align: center;
+  }
+  .tbl-content{
+    text-align: center;
+    border: 2px solid red;
+  }
+  .main_chart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-width: 100%;
+    min-height: auto;
+
+  }
+.main_chart h1{
+  background-color: black;
+}
